@@ -4,22 +4,14 @@
 
 int main()
 {
-float a,b,c;
-printf("donner a");
-scanf("%f",&a);
-printf("donner b");
-scanf("%f",&b);
-c=a*b;
-printf("%.3f",c);
-return 0;
-}
-
-
-/*{
-#include <stdio.h>
-
-int main()
-{
+float l,m,n;
+printf("donner l");
+scanf("%f",&l);
+printf("donner m");
+scanf("%f",&m);
+n=l*m;
+printf("%.3f",n);
+/*******************/
 int   i =  8;
 int   j =  5;
 float x =  0.005f;
@@ -36,30 +28,20 @@ printf(" "5*(i + j) > 'c'" n'a pas de valeur");
 printf("(i > 0) && (j < 5)%s",(i > 0) && (j < 5) ? "true":"false");
 printf("(x > y) && (i > 0) || (j < 5)%s",(x > y) && (i > 0) || (j < 5) ? "true":"false");
 printf("(x > y) && (i > 0) && (j < 5)%s",(x > y) && (i > 0) && (j < 5) ? "true":"false");
+/******************/
+
+int q,r,s;
+printf("donner q");
+scanf("%f",&q);
+printf("donner r");
+scanf("%f",&r);
+s=r;
+r=q;
+q=s;
+
+printf("les valeurs de q et r resp. : %d%d\n",q,r)
 return 0;
 }
 
 
-
-
-
-#include <stdio.h>
-
-int main()
-{
-
-int a,b,c;
-printf("donner a");
-scanf("%f",&a);
-printf("donner b");
-scanf("%f",&b);
-c=b;
-b=a;
-a=c;
-
-printf("les valeurs de a et b resp. : %d%d\n",a,b)
-return 0;
-}
-
-}*/
 
